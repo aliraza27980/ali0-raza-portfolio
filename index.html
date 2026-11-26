@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Raza | Software Engineering Student | Portfolio</title>
+    <meta name="description" content="Professional IT Portfolio of Ali Raza - Software Engineering Student at University of Sindh specializing in Full Stack Development, Python and AI Automation.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader-ring"></div>
+            <span>AR</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">AR</span>
+                <span class="logo-text">Ali Raza</span>
+            </a>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <a href="assets/Ali_Raza_CV.pdf" class="btn btn-outline btn-sm" download>
+                    <i class="fas fa-download"></i> CV
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Available for Internships & Collaborations
+                </div>
+                
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Ali Raza</span>
+                </h1>
+                
+                <h2 class="hero-subtitle">
+                    Software Engineering Student | Full Stack Developer | AI Automation Enthusiast
+                </h2>
+                
+                <p class="hero-description">
+                    Passionate about building scalable web applications and intelligent automation systems. 
+                    Currently exploring Parallel & Distributed Computing while crafting modern digital experiences.
+                </p>
+                
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        Get In Touch
+                    </a>
+                </div>
+                
+                <div class="hero-social">
+                    <a href="https://github.com/aliraza27980" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ali-raza-11b563386" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:aliraza27823@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="image-wrapper">
+                    <div class="image-glow"></div>
+                    <img src="assets/profile.jpeg" alt="Ali Raza - Software Engineering Student" class="profile-img">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-code"></i>
+                        <span>Full Stack</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-robot"></i>
+                        <span>AI Automation</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-server"></i>
+                        <span>Distributed Systems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Building the Future, One Line at a Time</h2>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-img-wrapper">
+                        <img src="assets/profile.jpeg" alt="Ali Raza">
+                        <div class="experience-badge">
+                            <span class="exp-number">3+</span>
+                            <span class="exp-text">Years of<br>Learning</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-content" data-aos="fade-left">
+                    <h3>Who I Am</h3>
+                    <p>
+                        I'm a dedicated Software Engineering student at the <strong>University of Sindh, Jamshoro</strong>, 
+                        currently in my 6th semester. My journey in technology is driven by curiosity and a strong desire 
+                        to solve real-world problems through clean code and intelligent systems.
+                    </p>
+                    <p>
+                        I specialize in <strong>Full Stack Development</strong> and have a growing passion for 
+                        <strong>Python-based AI Automation</strong> and <strong>Parallel & Distributed Computing</strong>. 
+                        I believe in continuous learning and building projects that make a meaningful impact.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-bullseye"></i>
+                            <div>
+                                <h4>Career Objective</h4>
+                                <p>To become a skilled Full Stack Developer and AI Automation Engineer, contributing to innovative solutions in distributed systems and intelligent applications.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Interests</h4>
+                                <p>Web Development, AI/ML Automation, Parallel Computing, Open Source Contribution, and Continuous Skill Enhancement.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="assets/Ali_Raza_CV.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-file-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Technical Skills</span>
+                <h2 class="section-title">Technologies I Work With</h2>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Responsive Design</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>REST APIs</span>
+                        <span>Flask</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database & Tools</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                        <span>Git & GitHub</span>
+                        <span>VS Code</span>
+                        <span>Postman</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI & Automation</h3>
+                    <div class="skill-tags">
+                        <span>Python Automation</span>
+                        <span>Scripting</span>
+                        <span>AI Tools</span>
+                        <span>Problem Solving</span>
+                        <span>Data Handling</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                    <div class="skill-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Parallel & Distributed</h3>
+                    <div class="skill-tags">
+                        <span>Parallel Programming Concepts</span>
+                        <span>Distributed Systems</span>
+                        <span>Multithreading Basics</span>
+                        <span>Cloud Fundamentals</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="600">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Other Skills</h3>
+                    <div class="skill-tags">
+                        <span>OOP</span>
+                        <span>Data Structures</span>
+                        <span>Algorithms</span>
+                        <span>Team Collaboration</span>
+                        <span>Technical Documentation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Projects Portfolio</span>
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-desc">A selection of academic and personal projects demonstrating my skills in full-stack development and automation.</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/aliraza27980" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Full Stack</span>
+                            <span>Web App</span>
+                        </div>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A fully responsive, animated professional portfolio website built to showcase skills, projects, and academic journey. Features modern UI/UX with smooth animations.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>AOS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/aliraza27980" target="_blank">View Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Project 2 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/aliraza27980" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Automation</span>
+                        </div>
+                        <h3>AI-Powered Task Automation Scripts</h3>
+                        <p>Collection of Python automation scripts designed to streamline repetitive tasks using intelligent workflows and data processing techniques.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Automation</span>
+                            <span>Scripting</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/aliraza27980" target="_blank">View Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Project 3 -->
+                <article class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/aliraza27980" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Academic</span>
+                            <span>Distributed Systems</span>
+                        </div>
+                        <h3>Parallel Computing Concepts Implementation</h3>
+                        <p>Academic project exploring parallel programming concepts, multithreading, and basic distributed computing principles as part of the Parallel & Distributed Computing course.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Multithreading</span>
+                            <span>Parallel Concepts</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/aliraza27980" target="_blank">View Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <!-- Case Study -->
+            <div class="case-study" data-aos="fade-up">
+                <div class="case-study-header">
+                    <span class="section-tag">Project Case Study</span>
+                    <h3>Featured Project Deep Dive</h3>
+                </div>
+                <div class="case-study-content">
+                    <div class="case-item">
+                        <h4><i class="fas fa-user"></i> My Role</h4>
+                        <p>Sole developer responsible for planning, designing, coding, and deploying the complete portfolio solution.</p>
+                    </div>
+                    <div class="case-item">
+                        <h4><i class="fas fa-cogs"></i> Process</h4>
+                        <p>Requirement analysis → Wireframing → UI Design → Development → Testing → Deployment on Vercel via GitHub integration.</p>
+                    </div>
+                    <div class="case-item">
+                        <h4><i class="fas fa-lightbulb"></i> Challenges & Solutions</h4>
+                        <p>Achieving smooth animations across devices while maintaining performance. Solved using optimized CSS animations and AOS library with proper lazy loading.</p>
+                    </div>
+                    <div class="case-item">
+                        <h4><i class="fas fa-trophy"></i> Outcome</h4>
+                        <p>A fully responsive, professional portfolio that effectively showcases academic journey, technical skills, and project experience for potential opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Experience & Training</span>
+                <h2 class="section-title">Academic & Practical Journey</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 – Present</span>
+                        <h3>Software Engineering Student</h3>
+                        <h4>University of Sindh, Jamshoro</h4>
+                        <p>Currently pursuing BS Software Engineering (6th Semester). Actively engaged in coursework covering Full Stack Development, Parallel & Distributed Computing, Data Structures, and Software Engineering principles.</p>
+                        <ul>
+                            <li>Studying Parallel and Distributed Computing concepts</li>
+                            <li>Building practical projects in web development and automation</li>
+                            <li>Developing problem-solving and teamwork skills through academic assignments</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Ongoing</span>
+                        <h3>Self-Directed Learning & Practice</h3>
+                        <h4>Personal Development</h4>
+                        <p>Continuously enhancing skills in Python, Full Stack technologies, and AI automation through personal projects, online resources, and hands-on practice.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Education</span>
+                <h2 class="section-title">Academic Background</h2>
+            </div>
+            
+            <div class="education-card" data-aos="fade-up">
+                <div class="edu-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="edu-content">
+                    <h3>Bachelor of Science in Software Engineering</h3>
+                    <h4>University of Sindh, Jamshoro</h4>
+                    <div class="edu-meta">
+                        <span><i class="fas fa-calendar"></i> Expected Graduation: 2027</span>
+                        <span><i class="fas fa-bookmark"></i> 3rd Year / 6th Semester</span>
+                    </div>
+                    <p>Relevant Coursework: Parallel and Distributed Computing, Object-Oriented Programming, Data Structures & Algorithms, Database Systems, Web Technologies, Software Engineering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Achievements -->
+    <section id="certifications" class="section certifications">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Growth & Recognition</span>
+                <h2 class="section-title">Certifications, Courses & Achievements</h2>
+            </div>
+            
+            <div class="cert-grid">
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Continuous Learning</h3>
+                    <p>Actively pursuing online courses and tutorials in Full Stack Development, Python Automation, and modern web technologies to strengthen practical skills.</p>
+                </div>
+                
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Academic Progress</h3>
+                    <p>Successfully progressing through core Software Engineering curriculum with focus on practical implementation and project-based learning.</p>
+                </div>
+                
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-users"></i>
+                    <h3>Team Collaboration</h3>
+                    <p>Participated in academic group projects developing teamwork, communication, and collaborative problem-solving abilities.</p>
+                </div>
+            </div>
+            
+            <p class="cert-note" data-aos="fade-up">
+                <i class="fas fa-info-circle"></i> 
+                Additional certifications and achievements will be updated as they are completed. Currently focused on building strong foundational skills and practical experience.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-desc">I'm open to internship opportunities, collaborations, and interesting projects. Feel free to reach out!</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:aliraza27823@gmail.com">aliraza27823@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/aliraza27980" target="_blank">github.com/aliraza27980</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/ali-raza-11b563386" target="_blank">linkedin.com/in/ali-raza-11b563386</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Jamshoro, Sindh, Pakistan</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" data-aos="fade-left" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <p class="form-note">This form opens your email client. You can also email me directly.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-icon">AR</span>
+                        <span class="logo-text">Ali Raza</span>
+                    </a>
+                    <p>Software Engineering Student passionate about Full Stack Development and AI Automation.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/aliraza27980" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ali-raza-11b563386" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:aliraza27823@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ali Raza. All rights reserved. Built with passion for learning.</p>
+                <p class="footer-note">University of Sindh, Jamshoro | Software Engineering</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
